@@ -1,0 +1,6 @@
+cd /usr/bin
+pushd /usr/sbin
+pushd /usr/local
+dirs
+popd
+dirs

@@ -1,0 +1,3 @@
+cd /usr/bin
+pushd /usr/local
+pwd

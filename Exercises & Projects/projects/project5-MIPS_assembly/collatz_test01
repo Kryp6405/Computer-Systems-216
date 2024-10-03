@@ -1,0 +1,5 @@
+#!/bin/tcsh -f
+
+cat collatz_data01.s collatz_driver.s collatz.s > collatz_prog.s
+spim -file collatz_prog.s | tail -n +2
+rm -f collatz_prog.s
